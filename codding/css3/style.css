@@ -313,3 +313,45 @@ header {
     width: 20%;
     margin-right: 10px;
 }
+
+/* ------------------------------------------------------------------- */
+/* CITIES SECTION */
+/* ------------------------------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.icon-small {
+    font-size: 120%;
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+
+    /* secrets to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+/* ------- LINKS ------- */
+
+.city-info a:link,
+.city-info a:visited {
+    text-decoration: none;
+    color: #e67e22;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 2px;
+}
+
+.city-info a:hover,
+.city-info a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+
+}
