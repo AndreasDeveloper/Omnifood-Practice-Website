@@ -59,6 +59,32 @@ $(document).ready(function() {
   });
   /* SETUP FOR SMOOTH SCROLLING FOR ELEMENTS */
 
+  /* ANIMATIONS ON SCROLL */
+
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated slideInLeft');
+    }, {
+         offset: '50%'
+    });
 
 
+    $('.js--wp-2').waypoint(function(direction) {
+       $('.js--wp-2').addClass('animated slideInUp');
+    }, {
+       offset: '50%'
+    });
+
+
+    $('.js--wp-3').waypoint(function(direction){
+       $('.js--wp-3').addClass('animated slideInLeft');
+    }, {
+        offset: '50%'
+    });
+
+
+    $('.js--wp-4').waypoint(function(direction){
+       $('.js--wp-4').addClass('animated pulse');
+    }, {
+       offset: '50%'
+    });
 });
