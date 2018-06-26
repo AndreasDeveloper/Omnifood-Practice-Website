@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 
     /* Mobile Nav */
-    $('.js--nav-icon').click(function() {
+    $('.js--nav-icon i').click(function() {
        var nav = $('.js--main-nav');
        var icon = $('.js--nav-icon i');
 
