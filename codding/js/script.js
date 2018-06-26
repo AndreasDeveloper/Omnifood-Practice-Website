@@ -98,11 +98,11 @@ $(document).ready(function() {
 
        nav.slideToggle(200);
 
-        if  (icon.hasClass('ion-navicon-round')) {
+        if  (icon.hasClass('icon ion-ios-menu')) {
             icon.addClass('icon ion-ios-close');
-            icon.removeClass('ion-navicon-round');
+            icon.removeClass('icon ion-ios-menu');
         } else {
-            icon.addClass('ion-navicon-round');
+            icon.addClass('icon ion-ios-menu');
             icon.removeClass('icon ion-ios-close');
         }
     });
