@@ -79,7 +79,7 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: center; 
 }
 
 h2:after {

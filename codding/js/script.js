@@ -87,7 +87,7 @@ $(document).ready(function() {
     }, {
        offset: '50%'
     });
-});
+
 
 
 
@@ -106,3 +106,4 @@ $(document).ready(function() {
             icon.removeClass('icon ion-ios-close');
         }
     });
+});
