@@ -132,7 +132,6 @@
 
     .work-steps { margin-bottom: 20px; }
     .work-steps:last-of-type { margin-bottom: 20px; }
-}
 
     .map-box {
         width: 100%;
@@ -163,3 +162,4 @@
     .hero-text-box {
         margin-bottom: 15px;
     }
+}

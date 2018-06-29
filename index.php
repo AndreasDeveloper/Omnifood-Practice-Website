@@ -339,8 +339,8 @@
             <div class="row">
                 <form method="post" action="mailer.php" class="contact-form">
                     <div class="row">
-                        <!-- DELETE COMMENTS IF ITS READY TO USE (PHP) -->
-                        <!--<?php
+
+                        <?php
                         if($_GET['success'] == 1) {
                             echo "<div class=\"form-messages success\">Thank you for contacting us.</div>";
                         }
@@ -348,8 +348,7 @@
                         if($_GET['success'] == -1) {
                             echo "<div class=\"form-messages error\">Your message has not been sent.</div>";
                         }
-                        ?> -->
-                        <!-- DELETE COMMENTS IF ITS READY TO USE (PHP) -->
+                        ?>
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
